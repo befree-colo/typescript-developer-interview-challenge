@@ -1,6 +1,7 @@
 // Import stylesheets
 import './style.css';
 import Instructions from './instructions';
+import Workspace from './workspace';
 
 // Write TypeScript code!
 const appDiv: HTMLElement = document.getElementById('app');
@@ -9,12 +10,12 @@ appDiv.innerHTML = `
 <h1>javascript-developer-interview-challenge</h1>
 
 <div class="wrapper">
-  <div class="box" style="width: 400px">
-  ${Instructions}
+  <div class="box">
+    ${Instructions}
   </div>
   <div class="handler"></div>
   <div class="box">
-    create button here
+    ${Workspace}
   </div>
 </div>
 `;

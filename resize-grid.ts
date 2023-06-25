@@ -1,24 +1,3 @@
-// Import stylesheets
-import './style.css';
-import Instructions from './instructions';
-
-// Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-
-appDiv.innerHTML = `
-<h1>javascript-developer-interview-challenge</h1>
-
-<div class="wrapper">
-  <div class="box" style="width: 400px">
-  ${Instructions}
-  </div>
-  <div class="handler"></div>
-  <div class="box">
-    create button here
-  </div>
-</div>
-`;
-
 const handler = document.querySelector('.handler');
 const wrapper = handler.closest('.wrapper');
 const boxA = wrapper.querySelector('.box');

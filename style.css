@@ -1,0 +1,10 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+.initial-button-state {
+  background-image: url('assets/initial_button_state.png');
+  border: thin solid black;
+  width: 100px;
+}

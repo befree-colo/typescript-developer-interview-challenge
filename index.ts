@@ -1,6 +1,6 @@
 // Import stylesheets
 import './style.css';
-import Instructions from './instructions';
+import Instructions from './instructions/instructions';
 import Workspace from './workspace';
 
 // Write TypeScript code!
@@ -11,10 +11,12 @@ appDiv.innerHTML = `
 
 <div class="wrapper">
   <div class="box">
+    <div class="box--header">Instructions</div>
     ${Instructions}
   </div>
   <div class="handler"></div>
   <div class="box">
+    <div class="box--header"  style="width: 600px">Workspace</div>
     ${Workspace}
   </div>
 </div>

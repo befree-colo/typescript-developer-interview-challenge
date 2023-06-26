@@ -13,60 +13,6 @@ body {
   color: white;
 }
 
-/* Button */
-.button,
-button {
-  display: inline-flex;
-  align-items: center;
-  padding: 8px 16px;
-  border-radius: 8px;
-  font-size: 14px;
-  cursor: pointer;
-  background-color: #1976d2;
-  color: white;
-  border: none;
-}
-
-.button:hover,
-button:hover {
-  opacity: 0.8;
-  font-weight: normal;
-}
-
-.button:disabled,
-button:disabled {
-  opacity: 0.5;
-  cursor: auto;
-}
-
-.call-button {
-  width: 7rem;
-}
-
-.answer-button {
-  background-color: #5ea100;
-  display: flex;
-  justify-content: center;
-}
-
-.hangup-button {
-  background-color: #aa2222;
-}
-
-.styles-table {
-  margin-left: 8px;
-  font-size: 0.875rem;
-}
-
-.styles-table th {
-  font-weight: 500;
-}
-
-.expected-style-header {
-  font-weight: 600;
-  margin: 0.5rem 0;
-}
-
 li {
   margin: 1rem 0;
 }
@@ -94,6 +40,12 @@ li {
 
   /* Allow box to grow and shrink, and ensure they are all equally sized */
   flex: 1 1 auto;
+}
+
+.box--header {
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin: 0 0 1rem 0;
 }
 
 .handler {

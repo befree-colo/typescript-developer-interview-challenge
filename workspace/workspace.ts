@@ -1,3 +1,5 @@
+import './workspace.css';
+
 const name = 'World';
 
 const Workspace = `

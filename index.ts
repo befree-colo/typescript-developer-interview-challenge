@@ -1,7 +1,7 @@
 // Import stylesheets
 import './style.css';
 import Instructions from './instructions/instructions';
-import Workspace from './workspace';
+import Workspace from './workspace/workspace';
 
 // Write TypeScript code!
 const appDiv: HTMLElement = document.getElementById('app');

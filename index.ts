@@ -7,7 +7,7 @@ import Workspace from './workspace';
 const appDiv: HTMLElement = document.getElementById('app');
 
 appDiv.innerHTML = `
-<h1>javascript-developer-interview-challenge</h1>
+<h1>TypeScript Developer Interview Challenge</h1>
 
 <div class="wrapper">
   <div class="box">
